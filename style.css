@@ -37,6 +37,8 @@ ul {
 
 a {
     text-decoration: none;
+    /*color inherit para que adquiera el color de su contenedor*/
+    color: inherit;
 }
 
 #title {
