@@ -146,3 +146,7 @@ a {
     justify-content: flex-end;
     align-items: center;
 }
+
+.call-to-action {
+    display: flex;
+}
