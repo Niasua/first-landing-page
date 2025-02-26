@@ -6,7 +6,7 @@ body {
     margin: 0;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -61,6 +61,16 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    width: 15em;
+}
+
+#button-1 {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
 }
 
 #description {
