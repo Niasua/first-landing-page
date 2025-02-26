@@ -118,3 +118,31 @@ a {
     height: 200px;
 }
 
+.content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    margin: 36px;
+    padding: 72px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
