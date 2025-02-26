@@ -82,3 +82,39 @@ a {
     width: 400px;
     border-radius: 8px;
 }
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 36px;
+}
+
+.products {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.product {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+}
+
+.product img {
+    border: 4px solid #3882f6; 
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
