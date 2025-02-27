@@ -1,6 +1,3 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
     display: flex;
     margin: 0;
@@ -101,14 +98,14 @@ a {
     align-items: center;
     font-size: 18px;
     color: #1f2937;
+    flex-wrap: wrap;
 }
 
 .product {
     padding: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
-
+    align-items: center;
 }
 
 .product img {
@@ -143,7 +140,7 @@ a {
 
 .quote-section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -185,10 +182,15 @@ a {
     padding: 8px;
 }
 
+#button-1, .cta-right button {
+    cursor: pointer;
+}
+
 .footer {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+    padding: 20px 0;
 }
